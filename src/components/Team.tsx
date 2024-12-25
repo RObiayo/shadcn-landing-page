@@ -25,7 +25,7 @@ const teamList: TeamProps[] = [
   {
     imageUrl: "https://i.pravatar.cc/150?img=35",
     name: "Emma Smith",
-    position: "Product Manager",
+    position: "Financial manager",
     socialNetworks: [
       {
         name: "Linkedin",
@@ -44,7 +44,7 @@ const teamList: TeamProps[] = [
   {
     imageUrl: "https://i.pravatar.cc/150?img=60",
     name: "John Doe",
-    position: "Tech Lead",
+    position: "Financial Analyst",
     socialNetworks: [
       {
         name: "Linkedin",
@@ -63,7 +63,7 @@ const teamList: TeamProps[] = [
   {
     imageUrl: "https://i.pravatar.cc/150?img=36",
     name: "Ashley Ross",
-    position: "Frontend Developer",
+    position: "CTO",
     socialNetworks: [
       {
         name: "Linkedin",
@@ -79,7 +79,7 @@ const teamList: TeamProps[] = [
   {
     imageUrl: "https://i.pravatar.cc/150?img=17",
     name: "Bruce Rogers",
-    position: "Backend Developer",
+    position: "Investor Relations manager",
     socialNetworks: [
       {
         name: "Linkedin",
@@ -116,7 +116,7 @@ export const Team = () => {
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           Our Dedicated{" "}
         </span>
-        Crew
+        Team
       </h2>
 
       <p className="mt-4 mb-10 text-xl text-muted-foreground">

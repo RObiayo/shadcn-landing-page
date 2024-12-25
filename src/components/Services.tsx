@@ -1,6 +1,6 @@
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { MagnifierIcon, WalletIcon, ChartIcon } from "./Icons";
-import cubeLeg from "../assets/cube-leg.png";
+import cubeLeg from "../assets/Service.png";
 
 interface ServiceProps {
   title: string;
@@ -10,40 +10,40 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Enhanced cash flow visibility",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Gain real-time insights into your cash flow to effectively manage expenses, optimize working capital, and drive sustainable growth.",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
+    title: "Expert budgeting & forecasting",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Plan confidently with tailored budgets and forecasts designed to support strategic growth and adaptability in any market",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Finance Automation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Optimize efficiency by automating financial processes, minimizing errors, and freeing up valuable resources for your business.",
     icon: <MagnifierIcon />,
   },
 ];
 
 export const Services = () => {
   return (
-    <section className="container py-24 sm:py-32">
+    <section id="special-services" className="container py-24 sm:py-32">
       <div className="grid lg:grid-cols-[1fr,1fr] gap-8 place-items-center">
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold">
-            <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{" "}
+          <h2 className="text-3xl md:text-4xl  font-bold">
+            <span className="bg-gradient-to-b  from-primary/60 to-primary text-transparent bg-clip-text">
+              Specialized{" "}
             </span>
             Services
           </h2>
 
-          <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+          <p className="text-muted-foreground lg:text-xl mt-4 mb-8 ">
+          Comprehensive Financial Services Tailored Specifically for Your Unique Business Needs
+
           </p>
 
           <div className="flex flex-col gap-8">
@@ -67,7 +67,7 @@ export const Services = () => {
 
         <img
           src={cubeLeg}
-          className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
+          className="w-[300px] md:w-[500px] lg:w-[600px]  object-contain"
           alt="About services"
         />
       </div>

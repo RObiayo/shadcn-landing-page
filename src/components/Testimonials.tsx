@@ -19,43 +19,43 @@ const testimonials: TestimonialProps[] = [
     image: "https://github.com/shadcn.png",
     name: "John Doe React",
     userName: "@john_Doe",
-    comment: "This landing page is awesome!",
+    comment: "The attention to detail and the quality of service we received was outstanding. The team went above and beyond to meet our needs",
   },
   {
     image: "https://github.com/shadcn.png",
     name: "John Doe React",
     userName: "@john_Doe1",
     comment:
-      "Lorem ipsum dolor sit amet,empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "The level of expertise and industry knowledge demonstrated by the team was impressive. They provided valuable insights that helped us make informed decisions.",
   },
 
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
+    name: "John Doe ",
     userName: "@john_Doe2",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "We appreciated the timely responses and clear communication throughout our collaboration. It made the process seamless and efficient.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
+    name: "John Doe",
     userName: "@john_Doe3",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "They don’t just react to issues; they anticipate challenges and provide proactive solutions. This has saved us both time and money.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
+    name: "John Doe ",
     userName: "@john_Doe4",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "Working with them feels like having a true partner in our business. They are committed to our success and genuinely care about our goals.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
+    name: "John Doe ",
     userName: "@john_Doe5",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Since partnering with them, we have seen a significant improvement in our financial processes and overall efficiency. Their support has been invaluable.",
   },
 ];
 
@@ -66,17 +66,17 @@ export const Testimonials = () => {
       className="container py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold">
-        Discover Why
+        Discover What
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          People Love{" "}
+          Our Clients{" "}
         </span>
-        This Landing Page
+        Think
       </h2>
 
-      <p className="text-xl text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde error
-        facere hic reiciendis illo
+      <p className="lg:text-xl text-muted-foreground pt-4 pb-8">
+      At <span className="text-blue-500 font-bold">IKO CFO</span>, we pride ourselves on delivering exceptional financial services tailored to meet the unique needs of our clients. Our commitment to excellence and dedication to building strong partnerships have earned us glowing feedback from those we serve. 
+      Here’s what some of our clients have to say about their experiences with us:
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-2  lg:columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">
